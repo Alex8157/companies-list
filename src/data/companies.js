@@ -740,29 +740,6 @@ const companiesData = [
             { id: 346, firstName: 'Lucas', lastName: 'Khan', position: 'Business Analyst', selected: false },
         ],
     },
-    {
-        id: 50,
-        name: 'IBM Corporation',
-        employeeCount: 14,
-        address: 'USA, Armonk, New York 10504',
-        selected: false,
-        employees: [
-            { id: 347, firstName: 'Alexander', lastName: 'Brown', position: 'Software Developer', selected: false },
-            { id: 348, firstName: 'Emma', lastName: 'Wilson', position: 'Product Manager', selected: false },
-            { id: 349, firstName: 'Daniel', lastName: 'Clark', position: 'UX Designer', selected: false },
-            { id: 350, firstName: 'Sophia', lastName: 'Johnson', position: 'Data Scientist', selected: false },
-            { id: 351, firstName: 'Liam', lastName: 'Hill', position: 'Sales Representative', selected: false },
-            { id: 352, firstName: 'Olivia', lastName: 'Davis', position: 'Marketing Specialist', selected: false },
-            { id: 353, firstName: 'Noah', lastName: 'Lewis', position: 'QA Engineer', selected: false },
-            { id: 354, firstName: 'Mia', lastName: 'Martin', position: 'HR Manager', selected: false },
-            { id: 355, firstName: 'William', lastName: 'Nguyen', position: 'Financial Analyst', selected: false },
-            { id: 356, firstName: 'Sophie', lastName: 'Taylor', position: 'Customer Support Specialist', selected: false },
-            { id: 357, firstName: 'Liam', lastName: 'White', position: 'Security Analyst', selected: false },
-            { id: 358, firstName: 'Ava', lastName: 'Wilson', position: 'Content Strategist', selected: false },
-            { id: 359, firstName: 'Ethan', lastName: 'Wu', position: 'UI Developer', selected: false },
-            { id: 360, firstName: 'Isabella', lastName: 'Smith', position: 'Legal Counsel', selected: false },
-        ],
-    },
 ];
 
 let count = 0;

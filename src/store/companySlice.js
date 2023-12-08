@@ -19,8 +19,8 @@ export const companySlice = createSlice({
         },
         
         addCompany: (state, action) => {
-            state.companies.unshift({...action.payload, id: IDS.company});
             IDS.company++;
+            state.companies.unshift({...action.payload, id: IDS.company});
         },
 
         removeCompany: (state, action) => {
