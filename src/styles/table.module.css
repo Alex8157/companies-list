@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    background-color: var(--button-color);
+    color: var(--button-font-color);
+    font-weight: 600;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.table {
+    width: 45vw;
+    border-collapse: collapse;
+    background-color: var(--block-color);
+}
+
+.table th {
+    border: 1px solid var(--line-color);
+    text-align: center;
+    padding: 8px;
+}
+
+.table td {
+    border: 1px solid var(--line-color);
+    text-align: center;
+    padding: 0;
+}
+
+.checkbox {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.table input {
+    width: 100%;
+    background-color: #00000000;
+    border: 1px solid #00000000;
+    padding: 8px;
+}
+
+.table input:focus {
+    border: 1px solid var(--selected-line-color);
+    outline: none;
+}
+
+.selected {
+    background-color: var(--selected-color);
+}
+
+.employees {
+    position: fixed;
+    right: 2.5vw;
+}

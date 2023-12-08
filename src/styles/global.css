@@ -1,0 +1,20 @@
+:root {
+  --background-color: white;
+  --block-color: #f8fcff;
+  --selected-color: #e2f0fd;
+  --line-color: #d0d2d4;
+  --selected-line-color: #5e6164;
+  --button-color: #4ca0ff;
+  --button-hover-color: #3087ea;
+  --button-font-color: white;
+  --shadow: 0 0 10px rgba(183, 195, 210, 0.70);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+}
